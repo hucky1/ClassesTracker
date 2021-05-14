@@ -2,7 +2,6 @@ C:\Users\admin.ROO-SERVER\source\repos\ClassesTracker\TrackerModel\bin\Debug\net
 C:\Users\admin.ROO-SERVER\source\repos\ClassesTracker\TrackerModel\bin\Debug\net5.0\TrackerModel.dll
 C:\Users\admin.ROO-SERVER\source\repos\ClassesTracker\TrackerModel\bin\Debug\net5.0\ref\TrackerModel.dll
 C:\Users\admin.ROO-SERVER\source\repos\ClassesTracker\TrackerModel\bin\Debug\net5.0\TrackerModel.pdb
-C:\Users\admin.ROO-SERVER\source\repos\ClassesTracker\TrackerModel\obj\Debug\net5.0\TrackerModel.csprojAssemblyReference.cache
 C:\Users\admin.ROO-SERVER\source\repos\ClassesTracker\TrackerModel\obj\Debug\net5.0\TrackerModel.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\admin.ROO-SERVER\source\repos\ClassesTracker\TrackerModel\obj\Debug\net5.0\TrackerModel.AssemblyInfoInputs.cache
 C:\Users\admin.ROO-SERVER\source\repos\ClassesTracker\TrackerModel\obj\Debug\net5.0\TrackerModel.AssemblyInfo.cs
@@ -30,3 +29,4 @@ F:\CentrObmen\IT\ClassesTracker\ClassesTracker\TrackerModel\obj\Debug\net5.0\Tra
 F:\CentrObmen\IT\ClassesTracker\ClassesTracker\TrackerModel\obj\Debug\net5.0\ref\TrackerModel.dll
 F:\CentrObmen\IT\ClassesTracker\ClassesTracker\TrackerModel\obj\Debug\net5.0\TrackerModel.pdb
 F:\CentrObmen\IT\ClassesTracker\ClassesTracker\TrackerModel\obj\Debug\net5.0\TrackerModel.genruntimeconfig.cache
+C:\Users\admin.ROO-SERVER\source\repos\ClassesTracker\TrackerModel\obj\Debug\net5.0\TrackerModel.csprojAssemblyReference.cache

@@ -10,9 +10,9 @@ namespace ClassesTrackerUI.Controllers
 {
     class TestingController
     {
-        private readonly Testing _testing;
+        private readonly ITesting _testing;
         
-        public TestingController(Testing testing)
+        public TestingController(ITesting testing)
         {
             _testing = testing;
             _testing.TestOpen += _testing_TestOpen;
@@ -60,8 +60,8 @@ namespace ClassesTrackerUI.Controllers
             {
                 PassedTestsModel passedTest = new()
                 {
-                    Name = _testing.nametextBox.Text,
-                    Group = _testing.grouptextBox.Text,
+                    Name = _testing.StudentName,
+                    Group = _testing.Group,
                     Mark = _testing.countOfRightAnswers,
                     Test = _testing.testName,
                     Date = DateTime.Now

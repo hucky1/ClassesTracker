@@ -7,7 +7,7 @@ namespace TrackerModel
     {
         public void Shuffle()
         {
-            Random rand = new Random();
+            Random rand = new();
             for (int i = this.Count - 1; i >= 1; i--)
             {
                 int j = rand.Next(i + 1);
