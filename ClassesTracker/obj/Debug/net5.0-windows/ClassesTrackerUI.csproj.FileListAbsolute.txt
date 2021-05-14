@@ -128,3 +128,9 @@ F:\CentrObmen\IT\ClassesTracker\ClassesTracker\ClassesTracker\bin\Debug\net5.0-w
 F:\CentrObmen\IT\ClassesTracker\ClassesTracker\ClassesTracker\bin\Debug\net5.0-windows\runtimes\win-x86\native\sni.dll
 F:\CentrObmen\IT\ClassesTracker\ClassesTracker\ClassesTracker\bin\Debug\net5.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
 F:\CentrObmen\IT\ClassesTracker\ClassesTracker\ClassesTracker\bin\Debug\net5.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\admin.ROO-SERVER\source\repos\ClassesTracker\ClassesTracker\bin\Debug\net5.0-windows\System.Data.SqlClient.dll
+C:\Users\admin.ROO-SERVER\source\repos\ClassesTracker\ClassesTracker\bin\Debug\net5.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\admin.ROO-SERVER\source\repos\ClassesTracker\ClassesTracker\bin\Debug\net5.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\admin.ROO-SERVER\source\repos\ClassesTracker\ClassesTracker\bin\Debug\net5.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\admin.ROO-SERVER\source\repos\ClassesTracker\ClassesTracker\bin\Debug\net5.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\admin.ROO-SERVER\source\repos\ClassesTracker\ClassesTracker\bin\Debug\net5.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll

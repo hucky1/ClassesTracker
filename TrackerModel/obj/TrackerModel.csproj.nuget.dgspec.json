@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "F:\\CentrObmen\\IT\\ClassesTracker\\ClassesTracker\\TrackerModel\\TrackerModel.csproj": {}
+    "C:\\Users\\admin.ROO-SERVER\\source\\repos\\ClassesTracker\\TrackerModel\\TrackerModel.csproj": {}
   },
   "projects": {
-    "F:\\CentrObmen\\IT\\ClassesTracker\\ClassesTracker\\TrackerModel\\TrackerModel.csproj": {
+    "C:\\Users\\admin.ROO-SERVER\\source\\repos\\ClassesTracker\\TrackerModel\\TrackerModel.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\CentrObmen\\IT\\ClassesTracker\\ClassesTracker\\TrackerModel\\TrackerModel.csproj",
+        "projectUniqueName": "C:\\Users\\admin.ROO-SERVER\\source\\repos\\ClassesTracker\\TrackerModel\\TrackerModel.csproj",
         "projectName": "TrackerModel",
-        "projectPath": "F:\\CentrObmen\\IT\\ClassesTracker\\ClassesTracker\\TrackerModel\\TrackerModel.csproj",
+        "projectPath": "C:\\Users\\admin.ROO-SERVER\\source\\repos\\ClassesTracker\\TrackerModel\\TrackerModel.csproj",
         "packagesPath": "C:\\Users\\admin.ROO-SERVER\\.nuget\\packages\\",
-        "outputPath": "F:\\CentrObmen\\IT\\ClassesTracker\\ClassesTracker\\TrackerModel\\obj\\",
+        "outputPath": "C:\\Users\\admin.ROO-SERVER\\source\\repos\\ClassesTracker\\TrackerModel\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\admin.ROO-SERVER\\AppData\\Roaming\\NuGet\\NuGet.Config",

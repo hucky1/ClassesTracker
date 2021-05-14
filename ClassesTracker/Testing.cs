@@ -22,26 +22,16 @@ namespace ClassesTrackerUI
             InitializeComponent();
             testName = test;
             radioButtons = new RadioButton[] { FirstQuestionRB, SecondQuestionRB, ThirdQuestionRB };
-            nextButton.Click += NextButton_Click;
+            nextButton.Click += delegate { QuestionAnswered?.Invoke(this, EventArgs.Empty); };
             StartButton.Click += StartBut_Click;
-            Load += Testing_Load;
+            Load += delegate { TestOpen?.Invoke(this, EventArgs.Empty); };
         }
-
-        private void NextButton_Click(object sender, EventArgs e)
-        {
-            QuestionAnswered?.Invoke(this, EventArgs.Empty);
-        }
-
+     
         public void ShowQuestions()
         {
-            testgroupBox.Text = shuffleTest[currentQuestionID].Text;
-            FirstQuestionRB.Text = shuffleTest[currentQuestionID].FirstAnswer;
-            SecondQuestionRB.Text = shuffleTest[currentQuestionID].SecondAnswer;
-            ThirdQuestionRB.Text = shuffleTest[currentQuestionID].ThirdAnswer;
-        }
-        private void Testing_Load(object sender, EventArgs e)
-        {
-            TestOpen?.Invoke(this, EventArgs.Empty);
+            var possibleAns = shuffleTest[currentQuestionID];
+            (testgroupBox.Text, FirstQuestionRB.Text, SecondQuestionRB.Text, ThirdQuestionRB.Text) =
+                (possibleAns.Text, possibleAns.FirstAnswer, possibleAns.SecondAnswer, possibleAns.ThirdAnswer);
         }
 
         private void StartBut_Click(object sender, EventArgs e)
@@ -56,14 +46,11 @@ namespace ClassesTrackerUI
                 testgroupBox.Enabled = true;
             }  
         }
-      
-        public void CheckAnswer()
-        {
-            foreach (var but in radioButtons)
-            {
-                if (but.Checked && but.Text == shuffleTest[currentQuestionID].GetRightAnswer())
-                    countOfRightAnswers++;
-            }
-        } 
+
+        public void CheckAnswer()=>
+            Array.ForEach(radioButtons.Where((x) => x.Checked && 
+            x.Text == shuffleTest[currentQuestionID].GetRightAnswer()).ToArray(),
+                (x) => countOfRightAnswers++);
+        
     }
 }

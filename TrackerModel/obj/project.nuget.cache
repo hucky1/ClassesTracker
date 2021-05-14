@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ouaaPoLcn2CVDuoK657w4WgokLcDw+7daCxkDAUyHBV0Ha+tW3FHVZiCoELeD0mrJkQKSZ/dA6YBOXmGD6GkBg==",
+  "dgSpecHash": "L0gbcM5FcK33kr/ohbPrBQ9VsSIu5oo7xmHpMzSuMtBA3zdRih3JYWTrqTWBszp9RbirGXsyXHNQ2XYN3r5Uzw==",
   "success": true,
-  "projectFilePath": "F:\\CentrObmen\\IT\\ClassesTracker\\ClassesTracker\\TrackerModel\\TrackerModel.csproj",
+  "projectFilePath": "C:\\Users\\admin.ROO-SERVER\\source\\repos\\ClassesTracker\\TrackerModel\\TrackerModel.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\admin.ROO-SERVER\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\admin.ROO-SERVER\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
