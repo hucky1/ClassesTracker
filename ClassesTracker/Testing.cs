@@ -1,9 +1,10 @@
-﻿using System;
+﻿using ClassesTrackerUI.Interfaces;
+using System;
 using System.Linq;
 using System.Windows.Forms;
 using TrackerModel;
+using TrackerModel.Interfaces;
 using TrackerModel.TestModels;
-using ClassesTrackerUI.Interfaces;
 
 namespace ClassesTrackerUI
 {
@@ -12,18 +13,18 @@ namespace ClassesTrackerUI
         public event EventHandler TestOpen;
         public event EventHandler QuestionAnswered;
 
-        public string testName { get; set; }
-        public ListOfTestsModel<TestModel> shuffleTest { get; set; } = new();
+        public string TestName { get; set; }
+        public ListOfTestsModel<ITestModel> ShuffleTest { get; set; } = new();
         RadioButton[] radioButtons;
-        public int currentQuestionID { get; set; }
-        public int countOfRightAnswers { get; set; }
+        public int CurrentQuestionID { get; set; }
+        public int CountOfRightAnswers { get; set; }
         public string Group { get; set; }
         public string StudentName { get; set; }
-
+       
         public Testing(string test)
         {
             InitializeComponent();
-            testName = test;
+            TestName = test;
             radioButtons = new RadioButton[] { FirstQuestionRB, SecondQuestionRB, ThirdQuestionRB };
             nextButton.Click += delegate { QuestionAnswered?.Invoke(this, EventArgs.Empty); };
             StartButton.Click += StartBut_Click;
@@ -32,8 +33,8 @@ namespace ClassesTrackerUI
      
         public void ShowQuestions()
         {
-            var possibleAns = shuffleTest[currentQuestionID];
-            (testgroupBox.Text, FirstQuestionRB.Text, SecondQuestionRB.Text, ThirdQuestionRB.Text) =
+                TestModel possibleAns = (TestModel)ShuffleTest[CurrentQuestionID];
+                (testgroupBox.Text, FirstQuestionRB.Text, SecondQuestionRB.Text, ThirdQuestionRB.Text) =
                 (possibleAns.Text, possibleAns.FirstAnswer, possibleAns.SecondAnswer, possibleAns.ThirdAnswer);
         }
 
@@ -51,10 +52,14 @@ namespace ClassesTrackerUI
             }  
         }
 
-        public void CheckAnswer()=>
-            Array.ForEach(radioButtons.Where((x) => x.Checked && 
-            x.Text == shuffleTest[currentQuestionID].GetRightAnswer()).ToArray(),
-                (x) => countOfRightAnswers++);
-        
+        public bool CheckAnswer()
+        {
+            Array.ForEach(radioButtons.Where((x) => x.Checked &&
+            x.Text == ShuffleTest[CurrentQuestionID].RightAnswer).ToArray(),
+                (x) => CountOfRightAnswers++);
+            return true;
+        }
+            
+
     }
 }

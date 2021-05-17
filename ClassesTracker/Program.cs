@@ -17,8 +17,8 @@ namespace ClassesTrackerUI
         static void Main()
         {
 
-            string docPath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments), "ClassesTrackerApp");
-            AppDomain.CurrentDomain.SetData("DataDirectory", docPath);
+           // string docPath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments), "ClassesTrackerApp");
+           // AppDomain.CurrentDomain.SetData("DataDirectory", docPath);
 
 
             Application.SetHighDpiMode(HighDpiMode.SystemAware);

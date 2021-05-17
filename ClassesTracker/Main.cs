@@ -1,7 +1,8 @@
-﻿using System;
+﻿using ClassesTrackerUI.Interfaces;
+using System;
 using System.Windows.Forms;
 using TrackerModel;
-using ClassesTrackerUI.Controllers;
+using TrackerModel.Controllers;
 
 namespace ClassesTrackerUI
 {
@@ -11,6 +12,7 @@ namespace ClassesTrackerUI
         public Main()
         {
             InitializeComponent();
+            //MainMenu.ItemClicked += OPe
         }
 
         private void OpenResults(object sender, EventArgs e)
@@ -20,7 +22,18 @@ namespace ClassesTrackerUI
         }
         private void OpenTest(object sender, EventArgs e)
         {
-            Testing testing = new(sender.ToString());
+            ITesting testing; 
+            string test = sender.ToString();
+            
+            if (test == "Задания")
+            {
+                testing = new Tasks();
+            }
+            else
+            {
+                testing = new Testing(test);
+            }
+            
             TestingController testingController = new(testing);
             testing.Show();
         }

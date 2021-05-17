@@ -1,11 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
 using TrackerModel;
-using TrackerModel.TestModels;
+using TrackerModel.Interfaces;
+
 
 namespace ClassesTrackerUI.Interfaces
 {
@@ -14,16 +10,17 @@ namespace ClassesTrackerUI.Interfaces
         public event EventHandler TestOpen;
         public event EventHandler QuestionAnswered;
 
-        string StudentName { get; set; }
+        string StudentName { get; set; } 
         string Group { get; set; }
 
-        public ListOfTestsModel<TestModel> shuffleTest { get; set; }
-        public string testName { get; set; }
-        public int currentQuestionID { get; set; }
-        public int countOfRightAnswers { get; set; }
+        public ListOfTestsModel<ITestModel> ShuffleTest { get; set; }
+        public string TestName { get; set; }
+        public int CurrentQuestionID { get; set; }
+        public int CountOfRightAnswers { get; set; }
 
         public void ShowQuestions();
-        public void CheckAnswer();
+        public bool CheckAnswer();
         public void Close();
+        public void Show();
     }
 }

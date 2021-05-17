@@ -1,12 +1,12 @@
 ﻿using System;
-using ClassesTrackerUI.Interfaces;
 using System.Linq;
+using ClassesTrackerUI.Interfaces;
 using System.Windows.Forms;
-using TrackerModel;
 using TrackerModel.TestModels;
+using TrackerModel.Interfaces;
+using ClassesTrackerUI;
 
-
-namespace ClassesTrackerUI.Controllers
+namespace TrackerModel.Controllers
 {
     class TestingController
     {
@@ -21,55 +21,65 @@ namespace ClassesTrackerUI.Controllers
 
         private void Testing_QuestionAnswered(object sender, EventArgs e)
         {
-            _testing.CheckAnswer();
-            if (_testing.currentQuestionID < 9)
+            if (_testing.CheckAnswer())
             {
-                _testing.currentQuestionID++;
-                _testing.ShowQuestions();
+                if (_testing.CurrentQuestionID < 9)
+                {
+                    _testing.CurrentQuestionID++;
+                    _testing.ShowQuestions();
+                }
+                else
+                {
+                    ShowResult();
+                    _testing.Close();
+                }
             }
-            else
-            {
-                ShowResult();
-                _testing.Close();
-            }
+            
         }
 
         private void _testing_TestOpen(object sender, EventArgs e)
         {
             using (TestingContext db = new())
             {
-                switch (_testing.testName)
+                switch (_testing.TestName)
                 {
                     case "Классы":
-                        db.ClassesTest.ToList().ConvertAll(x => (TestModel)x).ForEach(x => _testing.shuffleTest.Add(x));
+                        db.ClassesTest.ToList().ConvertAll(x => (ITestModel)x).ForEach(x => _testing.ShuffleTest.Add(x));
                         break;
                     case "Методы":
-                        db.MethodsTest.ToList().ConvertAll(x => (TestModel)x).ForEach(x => _testing.shuffleTest.Add(x));
+                        db.MethodsTest.ToList().ConvertAll(x => (ITestModel)x).ForEach(x => _testing.ShuffleTest.Add(x));
                         break;
                     case "Наследование":
-                        db.InheritanceTest.ToList().ConvertAll(x => (TestModel)x).ForEach(x => _testing.shuffleTest.Add(x));
+                        db.InheritanceTest.ToList().ConvertAll(x => (ITestModel)x).ForEach(x => _testing.ShuffleTest.Add(x));
+                        break;
+                    case "Задания":
+                        db.Tasks.ToList().ConvertAll(x => (ITestModel)x).ForEach(x => _testing.ShuffleTest.Add(x));
                         break;
                 }
-                _testing.shuffleTest.Shuffle();
+                _testing.ShuffleTest.Shuffle();
                 _testing.ShowQuestions();
             }
         }
         private void ShowResult()
         {
-            using (TestingContext db = new())
+            if (_testing is Testing)
             {
-                PassedTestsModel passedTest = new()
+                using (TestingContext db = new())
                 {
-                    Name = _testing.StudentName,
-                    Group = _testing.Group,
-                    Mark = _testing.countOfRightAnswers,
-                    Test = _testing.testName,
-                    Date = DateTime.Now
-                };
-                db.PassedTests.Add(passedTest);
-                db.SaveChanges();
+                    PassedTestsModel passedTest = new()
+                    {
+                        Name = _testing.StudentName,
+                        Group = _testing.Group,
+                        Mark = _testing.CountOfRightAnswers,
+                        Test = _testing.TestName,
+                        Date = DateTime.Now
+                    };
+                    db.PassedTests.Add(passedTest);
+                    db.SaveChanges();
+                }
             }
-            MessageBox.Show($"Ваша оценка {_testing.countOfRightAnswers}");
+            
+            MessageBox.Show($"Ваша оценка {_testing.CountOfRightAnswers}");
         }
        
 

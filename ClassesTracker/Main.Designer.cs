@@ -29,73 +29,73 @@ namespace ClassesTrackerUI
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.TreeNode treeNode1 = new System.Windows.Forms.TreeNode("ООП. Основные свойства ООП.");
-            System.Windows.Forms.TreeNode treeNode2 = new System.Windows.Forms.TreeNode("Вводная информация", new System.Windows.Forms.TreeNode[] {
-            treeNode1});
-            System.Windows.Forms.TreeNode treeNode3 = new System.Windows.Forms.TreeNode("Классы");
-            System.Windows.Forms.TreeNode treeNode4 = new System.Windows.Forms.TreeNode("Спецификаторы");
-            System.Windows.Forms.TreeNode treeNode5 = new System.Windows.Forms.TreeNode("Виды элементов класса");
-            System.Windows.Forms.TreeNode treeNode6 = new System.Windows.Forms.TreeNode("Классы в с#", new System.Windows.Forms.TreeNode[] {
-            treeNode3,
-            treeNode4,
-            treeNode5});
-            System.Windows.Forms.TreeNode treeNode7 = new System.Windows.Forms.TreeNode("Поля и константы");
-            System.Windows.Forms.TreeNode treeNode8 = new System.Windows.Forms.TreeNode("Методы. Разница между простыми и статическими?");
-            System.Windows.Forms.TreeNode treeNode9 = new System.Windows.Forms.TreeNode("Разница между витруальными и аббстрактными методами?");
-            System.Windows.Forms.TreeNode treeNode10 = new System.Windows.Forms.TreeNode("Объявление методов");
-            System.Windows.Forms.TreeNode treeNode11 = new System.Windows.Forms.TreeNode("Использование параметров");
-            System.Windows.Forms.TreeNode treeNode12 = new System.Windows.Forms.TreeNode("Методы в c#", new System.Windows.Forms.TreeNode[] {
-            treeNode8,
-            treeNode9,
-            treeNode10,
-            treeNode11});
-            System.Windows.Forms.TreeNode treeNode13 = new System.Windows.Forms.TreeNode("Конструкторы");
-            System.Windows.Forms.TreeNode treeNode14 = new System.Windows.Forms.TreeNode("Ключевое слово this");
-            System.Windows.Forms.TreeNode treeNode15 = new System.Windows.Forms.TreeNode("Конструкторы в C#", new System.Windows.Forms.TreeNode[] {
-            treeNode13,
-            treeNode14});
-            System.Windows.Forms.TreeNode treeNode16 = new System.Windows.Forms.TreeNode("Сборка мусора и деструкторы");
-            System.Windows.Forms.TreeNode treeNode17 = new System.Windows.Forms.TreeNode("Доступ к членам класса");
-            System.Windows.Forms.TreeNode treeNode18 = new System.Windows.Forms.TreeNode("Модификаторы доступа");
-            System.Windows.Forms.TreeNode treeNode19 = new System.Windows.Forms.TreeNode("Члены класса", new System.Windows.Forms.TreeNode[] {
-            treeNode17,
-            treeNode18});
-            System.Windows.Forms.TreeNode treeNode20 = new System.Windows.Forms.TreeNode("Модификаторы параметров");
-            System.Windows.Forms.TreeNode treeNode21 = new System.Windows.Forms.TreeNode("Модификатор REF");
-            System.Windows.Forms.TreeNode treeNode22 = new System.Windows.Forms.TreeNode("Модификатор OUT");
-            System.Windows.Forms.TreeNode treeNode23 = new System.Windows.Forms.TreeNode("Модификатор PARAMS");
-            System.Windows.Forms.TreeNode treeNode24 = new System.Windows.Forms.TreeNode("Модификаторы параметров в с#", new System.Windows.Forms.TreeNode[] {
-            treeNode20,
-            treeNode21,
-            treeNode22,
-            treeNode23});
-            System.Windows.Forms.TreeNode treeNode25 = new System.Windows.Forms.TreeNode("Рекурсия");
-            System.Windows.Forms.TreeNode treeNode26 = new System.Windows.Forms.TreeNode("Статические конструкторы");
-            System.Windows.Forms.TreeNode treeNode27 = new System.Windows.Forms.TreeNode("Статические классы");
-            System.Windows.Forms.TreeNode treeNode28 = new System.Windows.Forms.TreeNode("Ключевое слово STATIC", new System.Windows.Forms.TreeNode[] {
-            treeNode26,
-            treeNode27});
-            System.Windows.Forms.TreeNode treeNode29 = new System.Windows.Forms.TreeNode("Понятие индексатора");
-            System.Windows.Forms.TreeNode treeNode30 = new System.Windows.Forms.TreeNode("Одномерные индексаторы");
-            System.Windows.Forms.TreeNode treeNode31 = new System.Windows.Forms.TreeNode("Многомерные индексаторы");
-            System.Windows.Forms.TreeNode treeNode32 = new System.Windows.Forms.TreeNode("Индексаторы", new System.Windows.Forms.TreeNode[] {
-            treeNode29,
-            treeNode30,
-            treeNode31});
-            System.Windows.Forms.TreeNode treeNode33 = new System.Windows.Forms.TreeNode("Свойства. Аксессоры get и set");
-            System.Windows.Forms.TreeNode treeNode34 = new System.Windows.Forms.TreeNode("Автоматически генерируемые свойства");
-            System.Windows.Forms.TreeNode treeNode35 = new System.Windows.Forms.TreeNode("Свойства в c#", new System.Windows.Forms.TreeNode[] {
-            treeNode33,
-            treeNode34});
-            System.Windows.Forms.TreeNode treeNode36 = new System.Windows.Forms.TreeNode("Понятие наследования");
-            System.Windows.Forms.TreeNode treeNode37 = new System.Windows.Forms.TreeNode("Ключевое слово BASE");
-            System.Windows.Forms.TreeNode treeNode38 = new System.Windows.Forms.TreeNode("Ключевое слово THIS");
-            System.Windows.Forms.TreeNode treeNode39 = new System.Windows.Forms.TreeNode("Ключевое слово SEALED");
-            System.Windows.Forms.TreeNode treeNode40 = new System.Windows.Forms.TreeNode("Наследование в c#", new System.Windows.Forms.TreeNode[] {
-            treeNode36,
-            treeNode37,
-            treeNode38,
-            treeNode39});
+            System.Windows.Forms.TreeNode treeNode41 = new System.Windows.Forms.TreeNode("ООП. Основные свойства ООП.");
+            System.Windows.Forms.TreeNode treeNode42 = new System.Windows.Forms.TreeNode("Вводная информация", new System.Windows.Forms.TreeNode[] {
+            treeNode41});
+            System.Windows.Forms.TreeNode treeNode43 = new System.Windows.Forms.TreeNode("Классы");
+            System.Windows.Forms.TreeNode treeNode44 = new System.Windows.Forms.TreeNode("Спецификаторы");
+            System.Windows.Forms.TreeNode treeNode45 = new System.Windows.Forms.TreeNode("Виды элементов класса");
+            System.Windows.Forms.TreeNode treeNode46 = new System.Windows.Forms.TreeNode("Классы в с#", new System.Windows.Forms.TreeNode[] {
+            treeNode43,
+            treeNode44,
+            treeNode45});
+            System.Windows.Forms.TreeNode treeNode47 = new System.Windows.Forms.TreeNode("Поля и константы");
+            System.Windows.Forms.TreeNode treeNode48 = new System.Windows.Forms.TreeNode("Методы. Разница между простыми и статическими?");
+            System.Windows.Forms.TreeNode treeNode49 = new System.Windows.Forms.TreeNode("Разница между витруальными и аббстрактными методами?");
+            System.Windows.Forms.TreeNode treeNode50 = new System.Windows.Forms.TreeNode("Объявление методов");
+            System.Windows.Forms.TreeNode treeNode51 = new System.Windows.Forms.TreeNode("Использование параметров");
+            System.Windows.Forms.TreeNode treeNode52 = new System.Windows.Forms.TreeNode("Методы в c#", new System.Windows.Forms.TreeNode[] {
+            treeNode48,
+            treeNode49,
+            treeNode50,
+            treeNode51});
+            System.Windows.Forms.TreeNode treeNode53 = new System.Windows.Forms.TreeNode("Конструкторы");
+            System.Windows.Forms.TreeNode treeNode54 = new System.Windows.Forms.TreeNode("Ключевое слово this");
+            System.Windows.Forms.TreeNode treeNode55 = new System.Windows.Forms.TreeNode("Конструкторы в C#", new System.Windows.Forms.TreeNode[] {
+            treeNode53,
+            treeNode54});
+            System.Windows.Forms.TreeNode treeNode56 = new System.Windows.Forms.TreeNode("Сборка мусора и деструкторы");
+            System.Windows.Forms.TreeNode treeNode57 = new System.Windows.Forms.TreeNode("Доступ к членам класса");
+            System.Windows.Forms.TreeNode treeNode58 = new System.Windows.Forms.TreeNode("Модификаторы доступа");
+            System.Windows.Forms.TreeNode treeNode59 = new System.Windows.Forms.TreeNode("Члены класса", new System.Windows.Forms.TreeNode[] {
+            treeNode57,
+            treeNode58});
+            System.Windows.Forms.TreeNode treeNode60 = new System.Windows.Forms.TreeNode("Модификаторы параметров");
+            System.Windows.Forms.TreeNode treeNode61 = new System.Windows.Forms.TreeNode("Модификатор REF");
+            System.Windows.Forms.TreeNode treeNode62 = new System.Windows.Forms.TreeNode("Модификатор OUT");
+            System.Windows.Forms.TreeNode treeNode63 = new System.Windows.Forms.TreeNode("Модификатор PARAMS");
+            System.Windows.Forms.TreeNode treeNode64 = new System.Windows.Forms.TreeNode("Модификаторы параметров в с#", new System.Windows.Forms.TreeNode[] {
+            treeNode60,
+            treeNode61,
+            treeNode62,
+            treeNode63});
+            System.Windows.Forms.TreeNode treeNode65 = new System.Windows.Forms.TreeNode("Рекурсия");
+            System.Windows.Forms.TreeNode treeNode66 = new System.Windows.Forms.TreeNode("Статические конструкторы");
+            System.Windows.Forms.TreeNode treeNode67 = new System.Windows.Forms.TreeNode("Статические классы");
+            System.Windows.Forms.TreeNode treeNode68 = new System.Windows.Forms.TreeNode("Ключевое слово STATIC", new System.Windows.Forms.TreeNode[] {
+            treeNode66,
+            treeNode67});
+            System.Windows.Forms.TreeNode treeNode69 = new System.Windows.Forms.TreeNode("Понятие индексатора");
+            System.Windows.Forms.TreeNode treeNode70 = new System.Windows.Forms.TreeNode("Одномерные индексаторы");
+            System.Windows.Forms.TreeNode treeNode71 = new System.Windows.Forms.TreeNode("Многомерные индексаторы");
+            System.Windows.Forms.TreeNode treeNode72 = new System.Windows.Forms.TreeNode("Индексаторы", new System.Windows.Forms.TreeNode[] {
+            treeNode69,
+            treeNode70,
+            treeNode71});
+            System.Windows.Forms.TreeNode treeNode73 = new System.Windows.Forms.TreeNode("Свойства. Аксессоры get и set");
+            System.Windows.Forms.TreeNode treeNode74 = new System.Windows.Forms.TreeNode("Автоматически генерируемые свойства");
+            System.Windows.Forms.TreeNode treeNode75 = new System.Windows.Forms.TreeNode("Свойства в c#", new System.Windows.Forms.TreeNode[] {
+            treeNode73,
+            treeNode74});
+            System.Windows.Forms.TreeNode treeNode76 = new System.Windows.Forms.TreeNode("Понятие наследования");
+            System.Windows.Forms.TreeNode treeNode77 = new System.Windows.Forms.TreeNode("Ключевое слово BASE");
+            System.Windows.Forms.TreeNode treeNode78 = new System.Windows.Forms.TreeNode("Ключевое слово THIS");
+            System.Windows.Forms.TreeNode treeNode79 = new System.Windows.Forms.TreeNode("Ключевое слово SEALED");
+            System.Windows.Forms.TreeNode treeNode80 = new System.Windows.Forms.TreeNode("Наследование в c#", new System.Windows.Forms.TreeNode[] {
+            treeNode76,
+            treeNode77,
+            treeNode78,
+            treeNode79});
             this.chapterTitlesPanel = new System.Windows.Forms.Panel();
             this.theoryTreeView = new System.Windows.Forms.TreeView();
             this.theoryPanel = new System.Windows.Forms.Panel();
@@ -105,6 +105,7 @@ namespace ClassesTrackerUI
             this.classesTestMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.methodsTestMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.inheritenceTestMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.tasksMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.resultsMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.chapterTitlesPanel.SuspendLayout();
             this.theoryPanel.SuspendLayout();
@@ -125,100 +126,100 @@ namespace ClassesTrackerUI
             this.theoryTreeView.Dock = System.Windows.Forms.DockStyle.Left;
             this.theoryTreeView.Location = new System.Drawing.Point(0, 0);
             this.theoryTreeView.Name = "theoryTreeView";
-            treeNode1.Name = "OOPPropertiesNode";
-            treeNode1.Text = "ООП. Основные свойства ООП.";
-            treeNode2.Name = "IntoduceInfoNode";
-            treeNode2.Text = "Вводная информация";
-            treeNode3.Name = "classesNode";
-            treeNode3.Text = "Классы";
-            treeNode4.Name = "specificatorsNode";
-            treeNode4.Text = "Спецификаторы";
-            treeNode5.Name = "classElementKindsNode";
-            treeNode5.Text = "Виды элементов класса";
-            treeNode6.Name = "classesInCsNode";
-            treeNode6.Text = "Классы в с#";
-            treeNode7.Name = "constantsNode";
-            treeNode7.Text = "Поля и константы";
-            treeNode8.Name = "staticMethodsNode";
-            treeNode8.Text = "Методы. Разница между простыми и статическими?";
-            treeNode9.Name = "virtualAbstractMethodsNode";
-            treeNode9.Text = "Разница между витруальными и аббстрактными методами?";
-            treeNode10.Name = "methodDeclarationNode";
-            treeNode10.Text = "Объявление методов";
-            treeNode11.Name = "paramsUsingNode";
-            treeNode11.Text = "Использование параметров";
-            treeNode12.Name = "methodsNode";
-            treeNode12.Text = "Методы в c#";
-            treeNode13.Name = "constructorsNode";
-            treeNode13.Text = "Конструкторы";
-            treeNode14.Name = "thisKeywordNode";
-            treeNode14.Text = "Ключевое слово this";
-            treeNode15.Name = "constructorsMainNode";
-            treeNode15.Text = "Конструкторы в C#";
-            treeNode16.Name = "garbageCollectionNode";
-            treeNode16.Text = "Сборка мусора и деструкторы";
-            treeNode17.Name = "classMembersAccessNode";
-            treeNode17.Text = "Доступ к членам класса";
-            treeNode18.Name = "accessModifiersNode";
-            treeNode18.Text = "Модификаторы доступа";
-            treeNode19.Name = "classMembersNode";
-            treeNode19.Text = "Члены класса";
-            treeNode20.Name = "paramsModifierNode";
-            treeNode20.Text = "Модификаторы параметров";
-            treeNode21.Name = "refModifierNode";
-            treeNode21.Text = "Модификатор REF";
-            treeNode22.Name = "outModifierNode";
-            treeNode22.Text = "Модификатор OUT";
-            treeNode23.Name = "paramsModifierNode";
-            treeNode23.Text = "Модификатор PARAMS";
-            treeNode24.Name = "paramsModifierMainNode";
-            treeNode24.Text = "Модификаторы параметров в с#";
-            treeNode25.Name = "recursionNode";
-            treeNode25.Text = "Рекурсия";
-            treeNode26.Name = "staticConstructorsNode";
-            treeNode26.Text = "Статические конструкторы";
-            treeNode27.Name = "staticClassesNode";
-            treeNode27.Text = "Статические классы";
-            treeNode28.Name = "staticKeywordNode";
-            treeNode28.Text = "Ключевое слово STATIC";
-            treeNode29.Name = "indexerNotionNode";
-            treeNode29.Text = "Понятие индексатора";
-            treeNode30.Name = "oneDimIndexersNode";
-            treeNode30.Text = "Одномерные индексаторы";
-            treeNode31.Name = "multiDimIndexersNode";
-            treeNode31.Text = "Многомерные индексаторы";
-            treeNode32.Name = "indexatorsNode";
-            treeNode32.Text = "Индексаторы";
-            treeNode33.Name = "propGetSetNode";
-            treeNode33.Text = "Свойства. Аксессоры get и set";
-            treeNode34.Name = "autoPropNode";
-            treeNode34.Text = "Автоматически генерируемые свойства";
-            treeNode35.Name = "propertiesNode";
-            treeNode35.Text = "Свойства в c#";
-            treeNode36.Name = "inheritanceNotionNode";
-            treeNode36.Text = "Понятие наследования";
-            treeNode37.Name = "baseKeywordNode";
-            treeNode37.Text = "Ключевое слово BASE";
-            treeNode38.Name = "thisKeywordNode";
-            treeNode38.Text = "Ключевое слово THIS";
-            treeNode39.Name = "sealedKeywordNode";
-            treeNode39.Text = "Ключевое слово SEALED";
-            treeNode40.Name = "inheritanceCsNode";
-            treeNode40.Text = "Наследование в c#";
+            treeNode41.Name = "OOPPropertiesNode";
+            treeNode41.Text = "ООП. Основные свойства ООП.";
+            treeNode42.Name = "IntoduceInfoNode";
+            treeNode42.Text = "Вводная информация";
+            treeNode43.Name = "classesNode";
+            treeNode43.Text = "Классы";
+            treeNode44.Name = "specificatorsNode";
+            treeNode44.Text = "Спецификаторы";
+            treeNode45.Name = "classElementKindsNode";
+            treeNode45.Text = "Виды элементов класса";
+            treeNode46.Name = "classesInCsNode";
+            treeNode46.Text = "Классы в с#";
+            treeNode47.Name = "constantsNode";
+            treeNode47.Text = "Поля и константы";
+            treeNode48.Name = "staticMethodsNode";
+            treeNode48.Text = "Методы. Разница между простыми и статическими?";
+            treeNode49.Name = "virtualAbstractMethodsNode";
+            treeNode49.Text = "Разница между витруальными и аббстрактными методами?";
+            treeNode50.Name = "methodDeclarationNode";
+            treeNode50.Text = "Объявление методов";
+            treeNode51.Name = "paramsUsingNode";
+            treeNode51.Text = "Использование параметров";
+            treeNode52.Name = "methodsNode";
+            treeNode52.Text = "Методы в c#";
+            treeNode53.Name = "constructorsNode";
+            treeNode53.Text = "Конструкторы";
+            treeNode54.Name = "thisKeywordNode";
+            treeNode54.Text = "Ключевое слово this";
+            treeNode55.Name = "constructorsMainNode";
+            treeNode55.Text = "Конструкторы в C#";
+            treeNode56.Name = "garbageCollectionNode";
+            treeNode56.Text = "Сборка мусора и деструкторы";
+            treeNode57.Name = "classMembersAccessNode";
+            treeNode57.Text = "Доступ к членам класса";
+            treeNode58.Name = "accessModifiersNode";
+            treeNode58.Text = "Модификаторы доступа";
+            treeNode59.Name = "classMembersNode";
+            treeNode59.Text = "Члены класса";
+            treeNode60.Name = "paramsModifierNode";
+            treeNode60.Text = "Модификаторы параметров";
+            treeNode61.Name = "refModifierNode";
+            treeNode61.Text = "Модификатор REF";
+            treeNode62.Name = "outModifierNode";
+            treeNode62.Text = "Модификатор OUT";
+            treeNode63.Name = "paramsModifierNode";
+            treeNode63.Text = "Модификатор PARAMS";
+            treeNode64.Name = "paramsModifierMainNode";
+            treeNode64.Text = "Модификаторы параметров в с#";
+            treeNode65.Name = "recursionNode";
+            treeNode65.Text = "Рекурсия";
+            treeNode66.Name = "staticConstructorsNode";
+            treeNode66.Text = "Статические конструкторы";
+            treeNode67.Name = "staticClassesNode";
+            treeNode67.Text = "Статические классы";
+            treeNode68.Name = "staticKeywordNode";
+            treeNode68.Text = "Ключевое слово STATIC";
+            treeNode69.Name = "indexerNotionNode";
+            treeNode69.Text = "Понятие индексатора";
+            treeNode70.Name = "oneDimIndexersNode";
+            treeNode70.Text = "Одномерные индексаторы";
+            treeNode71.Name = "multiDimIndexersNode";
+            treeNode71.Text = "Многомерные индексаторы";
+            treeNode72.Name = "indexatorsNode";
+            treeNode72.Text = "Индексаторы";
+            treeNode73.Name = "propGetSetNode";
+            treeNode73.Text = "Свойства. Аксессоры get и set";
+            treeNode74.Name = "autoPropNode";
+            treeNode74.Text = "Автоматически генерируемые свойства";
+            treeNode75.Name = "propertiesNode";
+            treeNode75.Text = "Свойства в c#";
+            treeNode76.Name = "inheritanceNotionNode";
+            treeNode76.Text = "Понятие наследования";
+            treeNode77.Name = "baseKeywordNode";
+            treeNode77.Text = "Ключевое слово BASE";
+            treeNode78.Name = "thisKeywordNode";
+            treeNode78.Text = "Ключевое слово THIS";
+            treeNode79.Name = "sealedKeywordNode";
+            treeNode79.Text = "Ключевое слово SEALED";
+            treeNode80.Name = "inheritanceCsNode";
+            treeNode80.Text = "Наследование в c#";
             this.theoryTreeView.Nodes.AddRange(new System.Windows.Forms.TreeNode[] {
-            treeNode2,
-            treeNode6,
-            treeNode7,
-            treeNode12,
-            treeNode15,
-            treeNode16,
-            treeNode19,
-            treeNode24,
-            treeNode25,
-            treeNode28,
-            treeNode32,
-            treeNode35,
-            treeNode40});
+            treeNode42,
+            treeNode46,
+            treeNode47,
+            treeNode52,
+            treeNode55,
+            treeNode56,
+            treeNode59,
+            treeNode64,
+            treeNode65,
+            treeNode68,
+            treeNode72,
+            treeNode75,
+            treeNode80});
             this.theoryTreeView.Size = new System.Drawing.Size(322, 561);
             this.theoryTreeView.TabIndex = 0;
             this.theoryTreeView.AfterSelect += new System.Windows.Forms.TreeViewEventHandler(this.TheoryTreeView_AfterSelect);
@@ -263,7 +264,8 @@ namespace ClassesTrackerUI
             this.testingMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.classesTestMenuItem,
             this.methodsTestMenuItem,
-            this.inheritenceTestMenuItem});
+            this.inheritenceTestMenuItem,
+            this.tasksMenuItem});
             this.testingMenuItem.Name = "testingMenuItem";
             this.testingMenuItem.Size = new System.Drawing.Size(96, 20);
             this.testingMenuItem.Text = "Тестирование";
@@ -288,6 +290,13 @@ namespace ClassesTrackerUI
             this.inheritenceTestMenuItem.Size = new System.Drawing.Size(153, 22);
             this.inheritenceTestMenuItem.Text = "Наследование";
             this.inheritenceTestMenuItem.Click += OpenTest;
+            // 
+            // tasksMenuItem
+            // 
+            this.tasksMenuItem.Name = "tasksMenuItem";
+            this.tasksMenuItem.Size = new System.Drawing.Size(153, 22);
+            this.tasksMenuItem.Text = "Задания";
+            this.tasksMenuItem.Click += OpenTest;
             // 
             // resultsMenuItem
             // 
@@ -327,6 +336,7 @@ namespace ClassesTrackerUI
         private System.Windows.Forms.ToolStripMenuItem methodsTestMenuItem;
         private System.Windows.Forms.ToolStripMenuItem inheritenceTestMenuItem;
         private System.Windows.Forms.ToolStripMenuItem resultsMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem tasksMenuItem;
     }
 }
 

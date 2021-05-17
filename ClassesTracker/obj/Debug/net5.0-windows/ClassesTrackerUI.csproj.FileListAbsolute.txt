@@ -134,3 +134,4 @@ C:\Users\admin.ROO-SERVER\source\repos\ClassesTracker\ClassesTracker\bin\Debug\n
 C:\Users\admin.ROO-SERVER\source\repos\ClassesTracker\ClassesTracker\bin\Debug\net5.0-windows\runtimes\win-x86\native\sni.dll
 C:\Users\admin.ROO-SERVER\source\repos\ClassesTracker\ClassesTracker\bin\Debug\net5.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
 C:\Users\admin.ROO-SERVER\source\repos\ClassesTracker\ClassesTracker\bin\Debug\net5.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\admin.ROO-SERVER\source\repos\ClassesTracker\ClassesTracker\obj\Debug\net5.0-windows\ClassesTrackerUI.Tasks.resources

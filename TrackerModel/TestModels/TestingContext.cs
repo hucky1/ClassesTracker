@@ -10,9 +10,10 @@ namespace TrackerModel.TestModels
         public DbSet<InheritanceTest> InheritanceTest { get; set; }
 
         public DbSet<PassedTestsModel> PassedTests { get; set; }
+        public DbSet<TaskModel> Tasks { get; set; }
         public TestingContext()
         {
-            Database.EnsureCreated();
+            //Database.EnsureCreated();
         }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
