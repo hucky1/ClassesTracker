@@ -43,14 +43,16 @@ namespace ClassesTrackerUI
             this.QuestionTB.Multiline = true;
             this.QuestionTB.Name = "QuestionTB";
             this.QuestionTB.ReadOnly = true;
+            this.QuestionTB.ScrollBars = System.Windows.Forms.ScrollBars.Both;
             this.QuestionTB.Size = new System.Drawing.Size(776, 367);
             this.QuestionTB.TabIndex = 0;
+            this.QuestionTB.TabStop = false;
             // 
             // AnswerTB
             // 
-            this.AnswerTB.Location = new System.Drawing.Point(118, 381);
+            this.AnswerTB.Location = new System.Drawing.Point(159, 381);
             this.AnswerTB.Name = "AnswerTB";
-            this.AnswerTB.Size = new System.Drawing.Size(670, 23);
+            this.AnswerTB.Size = new System.Drawing.Size(629, 23);
             this.AnswerTB.TabIndex = 1;
             // 
             // checkBtn
@@ -68,7 +70,7 @@ namespace ClassesTrackerUI
             this.AnswerLbl.AutoSize = true;
             this.AnswerLbl.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.AnswerLbl.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.AnswerLbl.Location = new System.Drawing.Point(12, 379);
+            this.AnswerLbl.Location = new System.Drawing.Point(53, 379);
             this.AnswerLbl.Name = "AnswerLbl";
             this.AnswerLbl.Size = new System.Drawing.Size(100, 25);
             this.AnswerLbl.TabIndex = 4;
@@ -84,6 +86,7 @@ namespace ClassesTrackerUI
             this.Controls.Add(this.AnswerTB);
             this.Controls.Add(this.QuestionTB);
             this.Name = "Tasks";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Tasks";
             this.ResumeLayout(false);
             this.PerformLayout();

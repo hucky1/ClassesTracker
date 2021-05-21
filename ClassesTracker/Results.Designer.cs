@@ -49,6 +49,7 @@ namespace ClassesTrackerUI
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.dataGridView1);
             this.Name = "Results";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Results";
             this.Load += new System.EventHandler(this.Results_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();

@@ -29,4 +29,3 @@ F:\CentrObmen\IT\ClassesTracker\ClassesTracker\TrackerModel\obj\Debug\net5.0\Tra
 F:\CentrObmen\IT\ClassesTracker\ClassesTracker\TrackerModel\obj\Debug\net5.0\ref\TrackerModel.dll
 F:\CentrObmen\IT\ClassesTracker\ClassesTracker\TrackerModel\obj\Debug\net5.0\TrackerModel.pdb
 F:\CentrObmen\IT\ClassesTracker\ClassesTracker\TrackerModel\obj\Debug\net5.0\TrackerModel.genruntimeconfig.cache
-C:\Users\admin.ROO-SERVER\source\repos\ClassesTracker\TrackerModel\obj\Debug\net5.0\TrackerModel.csprojAssemblyReference.cache

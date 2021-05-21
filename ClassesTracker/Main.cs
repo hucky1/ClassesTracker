@@ -13,6 +13,8 @@ namespace ClassesTrackerUI
         {
             InitializeComponent();
             //MainMenu.ItemClicked += OPe
+            
+
         }
 
         private void OpenResults(object sender, EventArgs e)
