@@ -29,3 +29,4 @@ C:\Users\admin.ROO-SERVER\source\repos\ClassesTracker\TrackerModel\obj\Release\n
 C:\Users\admin.ROO-SERVER\source\repos\ClassesTracker\TrackerModel\obj\Release\net5.0\ref\TrackerModel.dll
 C:\Users\admin.ROO-SERVER\source\repos\ClassesTracker\TrackerModel\obj\Release\net5.0\TrackerModel.pdb
 C:\Users\admin.ROO-SERVER\source\repos\ClassesTracker\TrackerModel\obj\Release\net5.0\TrackerModel.genruntimeconfig.cache
+C:\Users\admin.ROO-SERVER\source\repos\ClassesTracker\TrackerModel\obj\Release\net5.0\TrackerModel.csproj.AssemblyReference.cache

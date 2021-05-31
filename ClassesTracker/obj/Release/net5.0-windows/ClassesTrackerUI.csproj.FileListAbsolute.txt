@@ -120,7 +120,6 @@ C:\Users\admin.ROO-SERVER\source\repos\ClassesTracker\ClassesTracker\bin\Release
 C:\Users\admin.ROO-SERVER\source\repos\ClassesTracker\ClassesTracker\bin\Release\net5.0-windows\TrackerModel.dll
 C:\Users\admin.ROO-SERVER\source\repos\ClassesTracker\ClassesTracker\bin\Release\net5.0-windows\TrackerModel.pdb
 C:\Users\admin.ROO-SERVER\source\repos\ClassesTracker\ClassesTracker\bin\Release\net5.0-windows\TrackerModel.dll.config
-C:\Users\admin.ROO-SERVER\source\repos\ClassesTracker\ClassesTracker\obj\Release\net5.0-windows\ClassesTrackerUI.csprojAssemblyReference.cache
 C:\Users\admin.ROO-SERVER\source\repos\ClassesTracker\ClassesTracker\obj\Release\net5.0-windows\ClassesTrackerUI.Main.resources
 C:\Users\admin.ROO-SERVER\source\repos\ClassesTracker\ClassesTracker\obj\Release\net5.0-windows\ClassesTrackerUI.Results.resources
 C:\Users\admin.ROO-SERVER\source\repos\ClassesTracker\ClassesTracker\obj\Release\net5.0-windows\ClassesTrackerUI.Tasks.resources
@@ -137,3 +136,4 @@ C:\Users\admin.ROO-SERVER\source\repos\ClassesTracker\ClassesTracker\obj\Release
 C:\Users\admin.ROO-SERVER\source\repos\ClassesTracker\ClassesTracker\obj\Release\net5.0-windows\ClassesTrackerUI.genruntimeconfig.cache
 C:\Users\admin.ROO-SERVER\source\repos\ClassesTracker\ClassesTracker\obj\Release\net5.0-windows\ClassesTrackerUI.Properties.Resources.resources
 C:\Users\admin.ROO-SERVER\source\repos\ClassesTracker\ClassesTracker\obj\Release\net5.0-windows\ClassesTrackerUI.StartupLogo.resources
+C:\Users\admin.ROO-SERVER\source\repos\ClassesTracker\ClassesTracker\obj\Release\net5.0-windows\ClassesTrackerUI.csproj.AssemblyReference.cache
