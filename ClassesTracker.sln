@@ -7,11 +7,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClassesTrackerUI", "Classes
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TrackerModel", "TrackerModel\TrackerModel.csproj", "{F34E7D4C-B600-48A3-8094-7ADD9A581735}"
 EndProject
-<<<<<<< HEAD
-Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "ClassesTrackerSetup", "ClassesTrackerSetup\ClassesTrackerSetup.vdproj", "{C4C19241-0895-455A-BA74-F7EE5440EAB7}"
-EndProject
-=======
->>>>>>> master
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -46,19 +41,6 @@ Global
 		{F34E7D4C-B600-48A3-8094-7ADD9A581735}.Release|x64.Build.0 = Release|x64
 		{F34E7D4C-B600-48A3-8094-7ADD9A581735}.Release|x86.ActiveCfg = Release|Any CPU
 		{F34E7D4C-B600-48A3-8094-7ADD9A581735}.Release|x86.Build.0 = Release|Any CPU
-<<<<<<< HEAD
-		{C4C19241-0895-455A-BA74-F7EE5440EAB7}.Debug|Any CPU.ActiveCfg = Debug
-		{C4C19241-0895-455A-BA74-F7EE5440EAB7}.Debug|x64.ActiveCfg = Debug
-		{C4C19241-0895-455A-BA74-F7EE5440EAB7}.Debug|x64.Build.0 = Debug
-		{C4C19241-0895-455A-BA74-F7EE5440EAB7}.Debug|x86.ActiveCfg = Debug
-		{C4C19241-0895-455A-BA74-F7EE5440EAB7}.Debug|x86.Build.0 = Debug
-		{C4C19241-0895-455A-BA74-F7EE5440EAB7}.Release|Any CPU.ActiveCfg = Release
-		{C4C19241-0895-455A-BA74-F7EE5440EAB7}.Release|x64.ActiveCfg = Release
-		{C4C19241-0895-455A-BA74-F7EE5440EAB7}.Release|x64.Build.0 = Release
-		{C4C19241-0895-455A-BA74-F7EE5440EAB7}.Release|x86.ActiveCfg = Release
-		{C4C19241-0895-455A-BA74-F7EE5440EAB7}.Release|x86.Build.0 = Release
-=======
->>>>>>> master
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
