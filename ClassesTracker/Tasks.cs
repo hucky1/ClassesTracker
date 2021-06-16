@@ -24,6 +24,8 @@ namespace ClassesTrackerUI
             InitializeComponent();
             checkBtn.Click += delegate { QuestionAnswered?.Invoke(this, EventArgs.Empty); };
             Load += delegate { TestOpen?.Invoke(this, EventArgs.Empty); };
+              checkBtn.Enabled = false;
+
         }
 
         public string StudentName { get; set; } = "Doesn't matter";
@@ -69,6 +71,20 @@ namespace ClassesTrackerUI
             (QuestionTB.Text) = (possibleAns.Text);
         }
 
-       
+
+        private void StartButton_Click(object sender, EventArgs e)
+        {
+            if (grouptextBox.Text == "" || nametextBox.Text == "")
+            {
+                MessageBox.Show("Заполните все данные!");
+            }
+            else
+            {
+                (Group, StudentName) = (grouptextBox.Text, nametextBox.Text);
+                infopanel.Enabled = false;
+                checkBtn.Enabled = true;
+            }
+
+        }
     }
 }

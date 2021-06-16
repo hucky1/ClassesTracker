@@ -10,6 +10,9 @@ namespace TrackerModel.TestModels
         public string SecondAnswer { get; set; }
         public string ThirdAnswer { get; set; }
         public string RightAnswer { get; set; }
+
+        public string TestName { get; set; }
+
      
     }
 }

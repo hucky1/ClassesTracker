@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\admin.ROO-SERVER\\source\\repos\\ClassesTracker\\TrackerModel\\TrackerModel.csproj": {}
+    "C:\\Users\\hucky\\Downloads\\ClassesTracker-main — копия\\ClassesTracker-main\\TrackerModel\\TrackerModel.csproj": {}
   },
   "projects": {
-    "C:\\Users\\admin.ROO-SERVER\\source\\repos\\ClassesTracker\\TrackerModel\\TrackerModel.csproj": {
+    "C:\\Users\\hucky\\Downloads\\ClassesTracker-main — копия\\ClassesTracker-main\\TrackerModel\\TrackerModel.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\admin.ROO-SERVER\\source\\repos\\ClassesTracker\\TrackerModel\\TrackerModel.csproj",
+        "projectUniqueName": "C:\\Users\\hucky\\Downloads\\ClassesTracker-main — копия\\ClassesTracker-main\\TrackerModel\\TrackerModel.csproj",
         "projectName": "TrackerModel",
-        "projectPath": "C:\\Users\\admin.ROO-SERVER\\source\\repos\\ClassesTracker\\TrackerModel\\TrackerModel.csproj",
-        "packagesPath": "C:\\Users\\admin.ROO-SERVER\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\admin.ROO-SERVER\\source\\repos\\ClassesTracker\\TrackerModel\\obj\\",
+        "projectPath": "C:\\Users\\hucky\\Downloads\\ClassesTracker-main — копия\\ClassesTracker-main\\TrackerModel\\TrackerModel.csproj",
+        "packagesPath": "C:\\Users\\hucky\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\hucky\\Downloads\\ClassesTracker-main — копия\\ClassesTracker-main\\TrackerModel\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\admin.ROO-SERVER\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\hucky\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -80,7 +84,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     }

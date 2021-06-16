@@ -20,7 +20,7 @@ namespace ClassesTrackerUI
         public int CountOfRightAnswers { get; set; }
         public string Group { get; set; }
         public string StudentName { get; set; }
-       
+
         public Testing(string test)
         {
             InitializeComponent();
@@ -30,17 +30,17 @@ namespace ClassesTrackerUI
             StartButton.Click += StartBut_Click;
             Load += delegate { TestOpen?.Invoke(this, EventArgs.Empty); };
         }
-     
+
         public void ShowQuestions()
         {
-                TestModel possibleAns = (TestModel)ShuffleTest[CurrentQuestionID];
-                (testgroupBox.Text, FirstQuestionRB.Text, SecondQuestionRB.Text, ThirdQuestionRB.Text) =
-                (possibleAns.Text, possibleAns.FirstAnswer, possibleAns.SecondAnswer, possibleAns.ThirdAnswer);
+            TestModel possibleAns = (TestModel)ShuffleTest[CurrentQuestionID];
+            (testgroupBox.Text, FirstQuestionRB.Text, SecondQuestionRB.Text, ThirdQuestionRB.Text) =
+            (possibleAns.Text, possibleAns.FirstAnswer, possibleAns.SecondAnswer, possibleAns.ThirdAnswer);
         }
 
         private void StartBut_Click(object sender, EventArgs e)
         {
-            if (grouptextBox.Text== "" || nametextBox.Text == "")
+            if (grouptextBox.Text == "" || nametextBox.Text == "")
             {
                 MessageBox.Show("Заполните все данные!");
             }
@@ -49,7 +49,7 @@ namespace ClassesTrackerUI
                 (Group, StudentName) = (grouptextBox.Text, nametextBox.Text);
                 infopanel.Enabled = false;
                 testgroupBox.Enabled = true;
-            }  
+            }
         }
 
         public bool CheckAnswer()
@@ -59,7 +59,5 @@ namespace ClassesTrackerUI
                 (x) => CountOfRightAnswers++);
             return true;
         }
-            
-
     }
 }

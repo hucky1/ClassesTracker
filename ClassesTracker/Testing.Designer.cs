@@ -53,18 +53,22 @@ namespace ClassesTrackerUI
             this.testgroupBox.Enabled = false;
             this.testgroupBox.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.testgroupBox.ForeColor = System.Drawing.SystemColors.MenuHighlight;
-            this.testgroupBox.Location = new System.Drawing.Point(12, 12);
+
+            this.testgroupBox.Location = new System.Drawing.Point(10, 10);
             this.testgroupBox.Name = "testgroupBox";
-            this.testgroupBox.Size = new System.Drawing.Size(901, 355);
+            this.testgroupBox.Size = new System.Drawing.Size(772, 308);
+
             this.testgroupBox.TabIndex = 1;
             this.testgroupBox.TabStop = false;
             this.testgroupBox.Text = "groupBox1";
             // 
             // nextButton
             // 
-            this.nextButton.Location = new System.Drawing.Point(734, 298);
+
+            this.nextButton.Location = new System.Drawing.Point(629, 258);
             this.nextButton.Name = "nextButton";
-            this.nextButton.Size = new System.Drawing.Size(161, 51);
+            this.nextButton.Size = new System.Drawing.Size(138, 44);
+
             this.nextButton.TabIndex = 3;
             this.nextButton.Text = "Далее";
             this.nextButton.UseVisualStyleBackColor = true;
@@ -72,9 +76,11 @@ namespace ClassesTrackerUI
             // ThirdQuestionRB
             // 
             this.ThirdQuestionRB.AutoSize = true;
-            this.ThirdQuestionRB.Location = new System.Drawing.Point(3, 220);
+
+            this.ThirdQuestionRB.Location = new System.Drawing.Point(3, 191);
             this.ThirdQuestionRB.Name = "ThirdQuestionRB";
-            this.ThirdQuestionRB.Size = new System.Drawing.Size(114, 24);
+            this.ThirdQuestionRB.Size = new System.Drawing.Size(100, 20);
+
             this.ThirdQuestionRB.TabIndex = 2;
             this.ThirdQuestionRB.Text = "radioButton3";
             this.ThirdQuestionRB.UseVisualStyleBackColor = true;
@@ -82,9 +88,11 @@ namespace ClassesTrackerUI
             // SecondQuestionRB
             // 
             this.SecondQuestionRB.AutoSize = true;
-            this.SecondQuestionRB.Location = new System.Drawing.Point(0, 133);
+
+            this.SecondQuestionRB.Location = new System.Drawing.Point(0, 115);
             this.SecondQuestionRB.Name = "SecondQuestionRB";
-            this.SecondQuestionRB.Size = new System.Drawing.Size(114, 24);
+            this.SecondQuestionRB.Size = new System.Drawing.Size(100, 20);
+
             this.SecondQuestionRB.TabIndex = 1;
             this.SecondQuestionRB.Text = "radioButton2";
             this.SecondQuestionRB.UseVisualStyleBackColor = true;
@@ -93,9 +101,11 @@ namespace ClassesTrackerUI
             // 
             this.FirstQuestionRB.AutoSize = true;
             this.FirstQuestionRB.Checked = true;
-            this.FirstQuestionRB.Location = new System.Drawing.Point(0, 61);
+
+            this.FirstQuestionRB.Location = new System.Drawing.Point(0, 53);
             this.FirstQuestionRB.Name = "FirstQuestionRB";
-            this.FirstQuestionRB.Size = new System.Drawing.Size(114, 24);
+            this.FirstQuestionRB.Size = new System.Drawing.Size(100, 20);
+
             this.FirstQuestionRB.TabIndex = 0;
             this.FirstQuestionRB.TabStop = true;
             this.FirstQuestionRB.Text = "radioButton1";
@@ -108,32 +118,40 @@ namespace ClassesTrackerUI
             this.infopanel.Controls.Add(this.StartButton);
             this.infopanel.Controls.Add(this.groupLabel);
             this.infopanel.Controls.Add(this.NameLabel);
-            this.infopanel.Location = new System.Drawing.Point(12, 373);
+
+            this.infopanel.Location = new System.Drawing.Point(10, 324);
             this.infopanel.Name = "infopanel";
-            this.infopanel.Size = new System.Drawing.Size(895, 65);
+            this.infopanel.Size = new System.Drawing.Size(767, 56);
+
             this.infopanel.TabIndex = 4;
             // 
             // grouptextBox
             // 
-            this.grouptextBox.Location = new System.Drawing.Point(470, 19);
+
+            this.grouptextBox.Location = new System.Drawing.Point(403, 16);
             this.grouptextBox.Name = "grouptextBox";
-            this.grouptextBox.Size = new System.Drawing.Size(211, 23);
+            this.grouptextBox.Size = new System.Drawing.Size(181, 21);
+
             this.grouptextBox.TabIndex = 11;
             // 
             // nametextBox
             // 
-            this.nametextBox.Location = new System.Drawing.Point(112, 19);
+
+            this.nametextBox.Location = new System.Drawing.Point(96, 16);
             this.nametextBox.Name = "nametextBox";
-            this.nametextBox.Size = new System.Drawing.Size(211, 23);
+            this.nametextBox.Size = new System.Drawing.Size(181, 21);
+
             this.nametextBox.TabIndex = 10;
             // 
             // StartButton
             // 
             this.StartButton.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.StartButton.ForeColor = System.Drawing.SystemColors.MenuHighlight;
-            this.StartButton.Location = new System.Drawing.Point(734, 7);
+
+            this.StartButton.Location = new System.Drawing.Point(629, 6);
             this.StartButton.Name = "StartButton";
-            this.StartButton.Size = new System.Drawing.Size(147, 42);
+            this.StartButton.Size = new System.Drawing.Size(126, 36);
+
             this.StartButton.TabIndex = 9;
             this.StartButton.Text = "Далее";
             this.StartButton.UseVisualStyleBackColor = true;
@@ -143,9 +161,11 @@ namespace ClassesTrackerUI
             this.groupLabel.AutoSize = true;
             this.groupLabel.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.groupLabel.ForeColor = System.Drawing.SystemColors.MenuHighlight;
-            this.groupLabel.Location = new System.Drawing.Point(384, 12);
+
+            this.groupLabel.Location = new System.Drawing.Point(329, 10);
             this.groupLabel.Name = "groupLabel";
-            this.groupLabel.Size = new System.Drawing.Size(80, 30);
+            this.groupLabel.Size = new System.Drawing.Size(76, 25);
+
             this.groupLabel.TabIndex = 8;
             this.groupLabel.Text = "Группа";
             // 
@@ -154,17 +174,21 @@ namespace ClassesTrackerUI
             this.NameLabel.AutoSize = true;
             this.NameLabel.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.NameLabel.ForeColor = System.Drawing.SystemColors.MenuHighlight;
-            this.NameLabel.Location = new System.Drawing.Point(46, 12);
+
+            this.NameLabel.Location = new System.Drawing.Point(39, 10);
             this.NameLabel.Name = "NameLabel";
-            this.NameLabel.Size = new System.Drawing.Size(60, 30);
+            this.NameLabel.Size = new System.Drawing.Size(60, 25);
+
             this.NameLabel.TabIndex = 7;
             this.NameLabel.Text = "ФИО";
             // 
             // Testing
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(925, 450);
+            this.ClientSize = new System.Drawing.Size(793, 390);
+
             this.Controls.Add(this.infopanel);
             this.Controls.Add(this.testgroupBox);
             this.Name = "Testing";

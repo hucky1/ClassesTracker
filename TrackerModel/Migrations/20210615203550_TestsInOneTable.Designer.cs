@@ -3,15 +3,17 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using TrackerModel.TestModels;
 
 namespace TrackerModel.Migrations
 {
     [DbContext(typeof(TestingContext))]
-    partial class TestingContextModelSnapshot : ModelSnapshot
+    [Migration("20210615203550_TestsInOneTable")]
+    partial class TestsInOneTable
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -19,15 +21,12 @@ namespace TrackerModel.Migrations
                 .HasAnnotation("ProductVersion", "5.0.5")
                 .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-
             modelBuilder.Entity("TrackerModel.TestModels.PassedTestsModel", b =>
-
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
-
 
                     b.Property<DateTime>("Date")
                         .HasColumnType("datetime2");
@@ -42,31 +41,25 @@ namespace TrackerModel.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Test")
-
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
-
 
                     b.ToTable("PassedTests");
                 });
 
             modelBuilder.Entity("TrackerModel.TestModels.TaskModel", b =>
-
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-
                     b.Property<string>("RightAnswer")
-
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Text")
                         .HasColumnType("nvarchar(max)");
-
 
                     b.HasKey("Id");
 
@@ -74,7 +67,6 @@ namespace TrackerModel.Migrations
                 });
 
             modelBuilder.Entity("TrackerModel.TestModels.TestModel", b =>
-
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -83,7 +75,6 @@ namespace TrackerModel.Migrations
 
                     b.Property<string>("FirstAnswer")
                         .HasColumnType("nvarchar(max)");
-
 
                     b.Property<string>("RightAnswer")
                         .HasColumnType("nvarchar(max)");
@@ -98,14 +89,11 @@ namespace TrackerModel.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("ThirdAnswer")
-
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
 
-
                     b.ToTable("TestModel");
-
                 });
 #pragma warning restore 612, 618
         }

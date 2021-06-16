@@ -44,13 +44,16 @@ namespace TrackerModel.Controllers
                 switch (_testing.TestName)
                 {
                     case "Классы":
-                        db.ClassesTest.ToList().ConvertAll(x => (ITestModel)x).ForEach(x => _testing.ShuffleTest.Add(x));
+
+                        
+                        db.TestModel.Where(x=> x.TestName=="Классы").ToList().ConvertAll(x => (ITestModel)x).ForEach(x => _testing.ShuffleTest.Add(x));
                         break;
                     case "Методы":
-                        db.MethodsTest.ToList().ConvertAll(x => (ITestModel)x).ForEach(x => _testing.ShuffleTest.Add(x));
+                        db.TestModel.Where(x => x.TestName == "Методы").ToList().ConvertAll(x => (ITestModel)x).ForEach(x => _testing.ShuffleTest.Add(x));
                         break;
                     case "Наследование":
-                        db.InheritanceTest.ToList().ConvertAll(x => (ITestModel)x).ForEach(x => _testing.ShuffleTest.Add(x));
+                        db.TestModel.Where(x => x.TestName == "Наследование").ToList().ConvertAll(x => (ITestModel)x).ForEach(x => _testing.ShuffleTest.Add(x));
+
                         break;
                     case "Задания":
                         db.Tasks.ToList().ConvertAll(x => (ITestModel)x).ForEach(x => _testing.ShuffleTest.Add(x));
@@ -62,22 +65,23 @@ namespace TrackerModel.Controllers
         }
         private void ShowResult()
         {
-            if (_testing is Testing)
+
+            
+            using (TestingContext db = new())
             {
-                using (TestingContext db = new())
+                PassedTestsModel passedTest = new()
                 {
-                    PassedTestsModel passedTest = new()
-                    {
-                        Name = _testing.StudentName,
-                        Group = _testing.Group,
-                        Mark = _testing.CountOfRightAnswers,
-                        Test = _testing.TestName,
-                        Date = DateTime.Now
-                    };
-                    db.PassedTests.Add(passedTest);
-                    db.SaveChanges();
-                }
+                    Name = _testing.StudentName,
+                    Group = _testing.Group,
+                    Mark = _testing.CountOfRightAnswers,
+                    Test = _testing.TestName,
+                    Date = DateTime.Now
+                };
+                db.PassedTests.Add(passedTest);
+                db.SaveChanges();
             }
+           
+
             
             MessageBox.Show($"Ваша оценка {_testing.CountOfRightAnswers}");
         }
