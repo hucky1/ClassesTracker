@@ -30,8 +30,8 @@ namespace ClassesTrackerUI
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(StartupLogo));
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.programNameLbl = new System.Windows.Forms.Label();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.progressBar1 = new System.Windows.Forms.ProgressBar();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -40,23 +40,13 @@ namespace ClassesTrackerUI
             // pictureBox1
             // 
             this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pictureBox1.Image = global::ClassesTrackerUI.Properties.Resources.pngtree_geometric_abstract_background_80s_memphis_triangle_image_306665;
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
             this.pictureBox1.Location = new System.Drawing.Point(0, 0);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(800, 450);
+            this.pictureBox1.Size = new System.Drawing.Size(686, 390);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
-            // 
-            // programNameLbl
-            // 
-            this.programNameLbl.AutoSize = true;
-            this.programNameLbl.Font = new System.Drawing.Font("Perpetua Titling MT", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.programNameLbl.ForeColor = System.Drawing.SystemColors.MenuHighlight;
-            this.programNameLbl.Location = new System.Drawing.Point(297, 159);
-            this.programNameLbl.Name = "programNameLbl";
-            this.programNameLbl.Size = new System.Drawing.Size(477, 26);
-            this.programNameLbl.TabIndex = 1;
-            this.programNameLbl.Text = "Обучабщее приложение по тема \"Классы\"";
             // 
             // timer1
             // 
@@ -65,18 +55,17 @@ namespace ClassesTrackerUI
             // 
             // progressBar1
             // 
-            this.progressBar1.Location = new System.Drawing.Point(271, 374);
+            this.progressBar1.Location = new System.Drawing.Point(37, 340);
             this.progressBar1.Name = "progressBar1";
-            this.progressBar1.Size = new System.Drawing.Size(503, 23);
+            this.progressBar1.Size = new System.Drawing.Size(617, 20);
             this.progressBar1.TabIndex = 2;
             // 
             // StartupLogo
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(686, 390);
             this.Controls.Add(this.progressBar1);
-            this.Controls.Add(this.programNameLbl);
             this.Controls.Add(this.pictureBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "StartupLogo";
@@ -84,14 +73,12 @@ namespace ClassesTrackerUI
             this.Text = "StartupLogo";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
         #endregion
 
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Label programNameLbl;
         private System.Windows.Forms.Timer timer1;
         private System.Windows.Forms.ProgressBar progressBar1;
     }

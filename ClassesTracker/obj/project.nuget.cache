@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "UCwG3PAa78QK3Pg+X5HGwCukDb1DDdxrG0wpWtC6sQ7zJHKM42WJQ+3VmUwAvR3n9zr9evy+26UIcRlaAtiE9g==",
+  "dgSpecHash": "Bt/OhjdfwT45fkrvmlL6vfagsMJ3bSORAxTYtK0687lh89ObA8sP68T1MoY3s9cN9BH1dqJauMg1/TPcpr/YZw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\hucky\\Downloads\\ClassesTracker\\ClassesTracker\\ClassesTracker\\ClassesTrackerUI.csproj",
+  "projectFilePath": "C:\\Users\\hucky\\Documents\\GitHub\\ClassesTracker\\ClassesTracker\\ClassesTracker\\ClassesTrackerUI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\hucky\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\hucky\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

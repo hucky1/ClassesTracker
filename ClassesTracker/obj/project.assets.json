@@ -6006,11 +6006,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\hucky\\Downloads\\ClassesTracker\\ClassesTracker\\ClassesTracker\\ClassesTrackerUI.csproj",
+      "projectUniqueName": "C:\\Users\\hucky\\Documents\\GitHub\\ClassesTracker\\ClassesTracker\\ClassesTracker\\ClassesTrackerUI.csproj",
       "projectName": "ClassesTrackerUI",
-      "projectPath": "C:\\Users\\hucky\\Downloads\\ClassesTracker\\ClassesTracker\\ClassesTracker\\ClassesTrackerUI.csproj",
+      "projectPath": "C:\\Users\\hucky\\Documents\\GitHub\\ClassesTracker\\ClassesTracker\\ClassesTracker\\ClassesTrackerUI.csproj",
       "packagesPath": "C:\\Users\\hucky\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\hucky\\Downloads\\ClassesTracker\\ClassesTracker\\ClassesTracker\\obj\\",
+      "outputPath": "C:\\Users\\hucky\\Documents\\GitHub\\ClassesTracker\\ClassesTracker\\ClassesTracker\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -6031,8 +6031,8 @@
         "net5.0-windows7.0": {
           "targetAlias": "net5.0-windows",
           "projectReferences": {
-            "C:\\Users\\hucky\\Downloads\\ClassesTracker\\ClassesTracker\\TrackerModel\\TrackerModel.csproj": {
-              "projectPath": "C:\\Users\\hucky\\Downloads\\ClassesTracker\\ClassesTracker\\TrackerModel\\TrackerModel.csproj"
+            "C:\\Users\\hucky\\Documents\\GitHub\\ClassesTracker\\ClassesTracker\\TrackerModel\\TrackerModel.csproj": {
+              "projectPath": "C:\\Users\\hucky\\Documents\\GitHub\\ClassesTracker\\ClassesTracker\\TrackerModel\\TrackerModel.csproj"
             }
           }
         }

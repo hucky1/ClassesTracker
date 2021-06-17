@@ -6025,11 +6025,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\hucky\\Downloads\\ClassesTracker\\ClassesTracker\\TrackerModel\\TrackerModel.csproj",
+      "projectUniqueName": "C:\\Users\\hucky\\Documents\\GitHub\\ClassesTracker\\ClassesTracker\\TrackerModel\\TrackerModel.csproj",
       "projectName": "TrackerModel",
-      "projectPath": "C:\\Users\\hucky\\Downloads\\ClassesTracker\\ClassesTracker\\TrackerModel\\TrackerModel.csproj",
+      "projectPath": "C:\\Users\\hucky\\Documents\\GitHub\\ClassesTracker\\ClassesTracker\\TrackerModel\\TrackerModel.csproj",
       "packagesPath": "C:\\Users\\hucky\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\hucky\\Downloads\\ClassesTracker\\ClassesTracker\\TrackerModel\\obj\\",
+      "outputPath": "C:\\Users\\hucky\\Documents\\GitHub\\ClassesTracker\\ClassesTracker\\TrackerModel\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

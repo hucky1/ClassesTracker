@@ -308,3 +308,4 @@ C:\Users\hucky\Downloads\ClassesTracker\ClassesTracker\ClassesTracker\obj\Debug\
 C:\Users\hucky\Downloads\ClassesTracker\ClassesTracker\ClassesTracker\obj\Debug\net5.0-windows\ref\ClassesTrackerUI.dll
 C:\Users\hucky\Downloads\ClassesTracker\ClassesTracker\ClassesTracker\obj\Debug\net5.0-windows\ClassesTrackerUI.pdb
 C:\Users\hucky\Downloads\ClassesTracker\ClassesTracker\ClassesTracker\obj\Debug\net5.0-windows\ClassesTrackerUI.genruntimeconfig.cache
+C:\Users\hucky\Downloads\ClassesTracker\ClassesTracker\ClassesTracker\obj\Debug\net5.0-windows\ClassesTrackerUI.csproj.AssemblyReference.cache
